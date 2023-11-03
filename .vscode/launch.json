@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "minor.Main",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "BUDG",
+            "request": "launch",
+            "mainClass": "minor.BUDG",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "Login",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "BUDG",
+            "request": "launch",
+            "mainClass": "BUDG",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "Budget",
+            "request": "launch",
+            "mainClass": "Budget",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "BudgetManager",
+            "request": "launch",
+            "mainClass": "BudgetManager",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "SignUP",
+            "request": "launch",
+            "mainClass": "SignUP",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "AddExpense",
+            "request": "launch",
+            "mainClass": "AddExpense",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ExpenseManagerLogin",
+            "request": "launch",
+            "mainClass": "ExpenseManagerLogin",
+            "vmArgs": "--module-path E:/Setups/javafx-sdk-20.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "projectName": "Budget_4728ea77"
+        }
+    ]
+}

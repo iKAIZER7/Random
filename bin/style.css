@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Apply padding and background color to the root VBox */
+.vbox {
+    -fx-padding: 20px;
+    -fx-background-color: #f5f5f5; /* Initial background color */
+    -fx-transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.vbox:hover {
+    -fx-background-color: #007bff; /* New background color on hover */
+}
+
+/* Style the title label */
+.title-label {
+    -fx-font-size: 24px; /* Increase font size */
+    -fx-font-weight: bold;
+}
+
+/* Style text fields */
+.text-field {
+    -fx-padding: 10px; /* Padding around text fields */
+    -fx-background-color: #fff; /* White background */
+}
+
+/* Style the login button */
+.login-button {
+    -fx-padding: 10px 20px; /* Padding for the login button */
+    -fx-background-color: #007bff; /* Blue background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-weight: bold;
+}
+
+/* Add hover effect to the login button */
+.login-button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Add a subtle shadow effect on button press */
+.login-button:pressed {
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 3, 0.0, 0, 1);
+}
